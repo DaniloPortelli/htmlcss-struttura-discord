@@ -25,6 +25,12 @@ header section{
     align-items: center;
 }
 
+header section div{
+    width: 40%;
+    text-align: center;
+    align-content: center;
+}
+
 header nav div{
     display: flex;
     border: blue solid;
@@ -38,9 +44,6 @@ header section div{
     margin: 20px;
 }
 
-.buttons{
-    object-fit: contain;
-}
 
 
 /* Main */
@@ -84,9 +87,26 @@ main article div div{
     background-color: gray;
 }
 
-.bottone{
-    width: 30%;
+.lastsection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
 }
+
+.justchillin{
+    width: 80%;
+    height: 70%;
+    margin: 10px;
+}
+
+.scaricapermac{
+    width: 50%;
+    height: 30%;
+
+}
+
+
 
 /* Footer */
 
@@ -103,30 +123,23 @@ footer .link {
     align-items: baseline;
     justify-content: space-around;
     padding-top: 20px;
-}
-
-footer .registrati {
-    display: flex;
-    border: solid green;
-    background-color: darkgray;
-    padding: 10px;
-    justify-content: space-around;
-    
-}
-
-.link{
     height: 70%;
 }
 
-.registrati{
-    height: 30%;
+footer .registrati {
+    border: solid green;
+    background-color: gray;
 }
 
 footer section div{
     border: solid blue;
+}
+
+footer .contenitore-registrati{
     display: flex;
-    justify-content: space-around;
-    
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 70px 0px 70px;
 }
 
 
