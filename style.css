@@ -74,6 +74,7 @@ main article div{
     margin: auto;
     padding: 100px 100px 20px;
     border: solid red;
+    margin: 10px;
 
 }
 
@@ -84,7 +85,7 @@ main article div div{
 }
 
 .bottone{
-    margin-top: 10px;
+    width: 30%;
 }
 
 /* Footer */
@@ -95,13 +96,22 @@ border: solid red;
 
 }
 
-footer section {
+footer .link {
     display: flex;
     border: solid green;
     background-color: darkgray;
     align-items: baseline;
     justify-content: space-around;
     padding-top: 20px;
+}
+
+footer .registrati {
+    display: flex;
+    border: solid green;
+    background-color: darkgray;
+    padding: 10px;
+    justify-content: space-around;
+    
 }
 
 .link{
